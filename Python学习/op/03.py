@@ -46,7 +46,8 @@ print(t.name)
 class Anime():
     pass
 class PaXingAni(Anime):
-    pass
+    def __init__(self, name):
+        print("paxingdongwu => {0}".format(name))
 
 class Dog(PaXingAni):
     # __init__就是构造函数
@@ -55,4 +56,19 @@ class Dog(PaXingAni):
     def __init__(self):
         print("__init__")
 #实例化的时候，括号内的参数需要跟构造函数参数匹配
+
+class Cat(PaXingAni):
+    pass
 d = Dog()
+c = Cat("gg")
+
+#super
+
+class Person():
+    def __init__(self):
+        print(1)
+class A(Person):
+    def __init__(self):
+        print(2)
+        super().__init__()
+a = A()
