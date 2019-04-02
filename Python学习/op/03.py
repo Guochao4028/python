@@ -42,6 +42,7 @@ t.sleep()
 t.make_test()
 print(t.name)
 '''
+'''
 #构造函数的概念
 class Anime():
     pass
@@ -72,3 +73,27 @@ class A(Person):
         print(2)
         super().__init__()
 a = A()
+print(A.__mro__)
+'''
+class Fish():
+    def __init__(self, name):
+        self.name = name
+    def swim(self):
+        print("mming")
+class Bird():
+    def __init__(self,name):
+        self.name = name
+    def fly(self):
+        print("fly")
+class Person():
+    def __init__(self, name):
+        self.name = name
+    def work(self):
+        print("work")
+class SuperMan(Person, Bird, Fish):
+    def __init__(self, name):
+        self.name = name
+s = SuperMan("yy")
+s.fly()
+s.swim()
+s.work()
