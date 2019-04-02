@@ -4,15 +4,15 @@
 #但name格式并不统一
 #可以用增加一个函数，然后自动调用的方式但很蠢
 class Student():
+    '''
+    介绍自己
+    :return:
+    '''
     def __init__(self, name, age):
         self.name = name
         self.age = age
         self.setName(name)
     def intro(self):
-        '''
-        介绍自己
-        :return:
-        '''
         print("hai, my name:{0}".format(self.name))
         return None
     def setName(self, name):
@@ -52,3 +52,5 @@ class Proson1():
         pass
     def __delete__(self, instance):
         pass
+
+print(Student.__doc__)
