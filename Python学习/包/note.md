@@ -26,3 +26,8 @@
     - import 模块 as 别名
         - 导入的同时给模块起一个别名
         - 其余用法跟第一种相同
+        
+    - from module_name import func_name, class_name
+    
+            from p01 import Stutendt, sayHi
+    - from module_name import *
