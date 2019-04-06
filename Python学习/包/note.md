@@ -98,3 +98,21 @@
             class_name.func_name()
             class_name.var
             详见p9.py 注意此种导入的具体内容
+    - from package.module import *
+        - 导入包中指定的模块的所有内容
+        - 使用方法
+                
+                func_name()
+                class_name.func_name()
+    - 在开发环境中经常会用其他模块，可以在当前包中直接导入其他模块中的内容
+        - improt 完整的包或者模块的路径
+    
+    - __all__ 用法
+        - 在使用from package import * 的时候，* 可以导入的内容
+        - 不是一个函数
+        - __init__.py 中如果文件为空，或者没有__all__，那么只可以把__init__中的内容导入
+        - __init__如果设置了__all__的值，那么则按照__all__指定的子包或者模块进行如此则不会载入__init__中的内容
+        - __all__ = [module1, module2,package1,....]
+# 命名空间
+- 用于区分不同位置我不同功能但相同名称的函数或者变量的一个特征前缀
+- 防止命名冲突

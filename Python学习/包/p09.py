@@ -1,2 +1,2 @@
 from pkg01 import *
-getName()
+inInt()
