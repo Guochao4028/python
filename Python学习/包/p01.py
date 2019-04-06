@@ -10,5 +10,6 @@ class Stutendt():
         print("name"+self.name)
 def sayHi():
     print("Hi")
-
-print("p01模块")
+# 此判断语句建议一直作为程序入口
+if __name__ == "__main__":
+    print("p01模块")
