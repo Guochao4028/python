@@ -73,3 +73,28 @@
                 package_name.class_name.func_name()
         -此种方法的访问内容是
         - pkg01, p07.py
+    - import package_name as p
+        - 具体用法与模块的用法一样
+        - 注意的是此种方法时默认对__init__.py内容的导入
+    - import package.module
+        - 导入包中某一个具体模块
+            
+                package.module.func_name
+                package.module.class.fun()
+                package.module.class.var
+        - 详见p08.py
+    - import package.module as pm
+# from ... import 导入
+    - from package improt module，module2...
+    - 此种导入方法不执行__init__内容
+    
+        from pkg01 import p01
+        p01.sayHi（）
+    - from package import *
+        - 导入当前包__init__.py文件中所有的函数和类
+        - 使用方法
+        
+            func_name()
+            class_name.func_name()
+            class_name.var
+            详见p9.py 注意此种导入的具体内容
