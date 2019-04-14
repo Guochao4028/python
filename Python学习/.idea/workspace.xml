@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b63ae75f-dcd8-4f43-ab3d-8cf69a1c7c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/调试/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/调试/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/调试/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/log/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/log/note.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/log/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="229">
-                <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+              <first_editor relative-caret-position="476">
+                <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,8 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="27">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/gc.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -83,12 +89,13 @@
         <option value="$PROJECT_DIR$/异常处理/异常处理Note.md" />
         <option value="$PROJECT_DIR$/调试/01.py" />
         <option value="$PROJECT_DIR$/调试/note.md" />
+        <option value="$PROJECT_DIR$/log/gc.log" />
         <option value="$PROJECT_DIR$/log/01.py" />
         <option value="$PROJECT_DIR$/log/note.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -284,7 +291,7 @@
       <workItem from="1554278474918" duration="105000" />
       <workItem from="1554283245201" duration="12364000" />
       <workItem from="1555151333404" duration="1783000" />
-      <workItem from="1555220757041" duration="2481000" />
+      <workItem from="1555220757041" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="进入第二部分，开始写项目">
       <created>1553841287844</created>
@@ -412,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555151474932</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2019年4月14日 14:39:27">
+      <created>1555223976500</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555223976500</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49124000" />
+    <option name="totallyTimeSpent" value="51015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,12 +445,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5612708" visible="true" weight="0.45335516" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5612708" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +490,8 @@
     <MESSAGE value="2019年4月6日 16:55:49" />
     <MESSAGE value="2019年4月6日 17:56:34" />
     <MESSAGE value="2019年4月13日 18:31:09" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年4月13日 18:31:09" />
+    <MESSAGE value="2019年4月14日 14:39:27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年4月14日 14:39:27" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$03.coverage" NAME="03 Coverage Results" MODIFIED="1554107359001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/op" />
@@ -493,7 +508,7 @@
     <SUITE FILE_PATH="coverage/Python$02.coverage" NAME="02 Coverage Results" MODIFIED="1554099950565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/op" />
     <SUITE FILE_PATH="coverage/Python$p07.coverage" NAME="p07 Coverage Results" MODIFIED="1554537671417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/包" />
     <SUITE FILE_PATH="coverage/Python$p08.coverage" NAME="p08 Coverage Results" MODIFIED="1554538324846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/包" />
-    <SUITE FILE_PATH="coverage/Python$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1555221025516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
+    <SUITE FILE_PATH="coverage/Python$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1555225340264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/op/01.py">
@@ -717,18 +732,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21081">
+          <caret line="1831" column="4" selection-start-line="1831" selection-start-column="4" selection-end-line="1831" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="27">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/gc.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="229">
-            <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <first_editor relative-caret-position="476">
+            <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
