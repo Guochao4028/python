@@ -54,4 +54,26 @@
         - 输出 sys.stderr
         - 级别:warning
         - 格式 level：log_name：content
-         
+        - 详见01.py 
+    - format 参数
+    
+            %(levelno)s: 打印日志级别的数值
+            %(levelname)s: 打印日志级别名称
+            %(pathname)s: 打印当前执行程序的路径，其实就是sys.argv[0]
+            %(filename)s: 打印当前执行程序名
+            %(funcName)s: 打印日志的当前函数
+            %(lineno)d: 打印日志的当前行号
+            %(asctime)s: 打印日志的时间
+            %(thread)d: 打印线程ID
+            %(threadName)s: 打印线程名称
+            %(process)d: 打印进程ID
+            %(message)s: 打印日志信息
+            
+ # 2.1.logging模块的处理流程
+ - 四大组件
+    - 日志器（Logger）产生日志的一个接口
+    - 处理器（Handler）把产生的日志发送到相应的目的地
+    - 过滤器（Filter）更精细的控制那些日志输出
+    -
+
+    
