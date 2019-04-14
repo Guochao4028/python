@@ -1,0 +1,13 @@
+# 调试技术
+- 调试流程 单元测试-》集成测试-》交测试部
+- 分类
+    - 静态测试 viewCode
+    - 动态测试 runCode
+# pdb测试
+- pdb Python 调试库
+# pycharm 调试
+- run/debug模式
+- 案例 01.py
+# 单元测试
+
+    
