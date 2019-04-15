@@ -11,3 +11,42 @@
 - 全局解释器锁（gil）
     - Python代码的执行时由Python虚拟机进行控制
     - 在主循环中只有一个控制线程在执行
+- Python包
+    - thread 有问题 不好用，Python3 改成了_thread
+        - 详见案例01.py
+    - threading 通行的包 
+ - threading 的使用
+    - 直接利用threading，Thread生成Thread实例
+        1. t = threading.Thread(target=xxx,args=(xxx,))
+        2. t.start()启动多线程
+        3. t.join()等待多线程执行完成
+        4. 详见04.py
+        - 守护线程- daemon
+            - 如果在程序中将子线程设置成守护线程，则子线程会在主线程结束的时候自动退出
+            - 一般认为，守护线程不重要或者不允许离开主线程独立运行
+            - 守护线程案例能否有效果跟环境相关
+        - 线程常用属性
+            - threading.currentThread 返回当前线程变量
+            - threading.enumerate 返回一个包含正在运行的线程的list，正在运行的线程指的是线程启动后结束前
+            - threading.activeCount 返回正在运行的线程数量，效果跟len（threading.enumerate）相同 
+            - threading.setName 设置线程的名字
+            - threading.getName 得到线程的名字
+        - 直接继承自threading.Thread
+            - 直接继承Thread
+            - 重写run函数
+            - 类实例直接运行
+            - 案例05 工业风案例
+    - 共享变量
+        - 共享变量 当多个线程同时访问一个变量的时候，会产生共享变量的问题
+        - 案例 06
+        - 解决变量：锁，信号灯
+        - 锁（lock）
+            - 是一个标志，表示一个线程在占用一些资源
+            - 使用方法
+                - 上锁
+                - 使用共享资源， 放心的用
+                - 取消锁，释放锁
+                - 案例07
+                - 锁谁： 哪个资源需要多个线程共享就锁哪个
+                - 
+            

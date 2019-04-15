@@ -8,3 +8,13 @@
 2019-04-14 15:02:20,723 *WARNING *-> this is a logWARNING
 2019-04-14 15:02:20,723 *ERR=-【】-OR *-> this is a logERROR
 2019-04-14 15:02:20,723 *CRITICAL *-> this is a logCRITICAL
+2019-04-15 14:39:04,934 *DEBUG *-> this is a debug
+2019-04-15 14:39:04,934 *INFO *-> this is a info
+2019-04-15 14:39:04,935 *WARNING *-> this is a warning
+2019-04-15 14:39:04,935 *ERROR *-> this is a error
+2019-04-15 14:39:04,935 *CRITICAL *-> this is a critical
+2019-04-15 14:39:04,935 *DEBUG *-> this is a logDEBUG
+2019-04-15 14:39:04,936 *INFO *-> this is a logINFO
+2019-04-15 14:39:04,936 *WARNING *-> this is a logWARNING
+2019-04-15 14:39:04,936 *ERROR *-> this is a logERROR
+2019-04-15 14:39:04,936 *CRITICAL *-> this is a logCRITICAL
