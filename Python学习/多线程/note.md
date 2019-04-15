@@ -58,9 +58,29 @@
             - queue 是一个用来存放变量的数据结构，特点先进先出，内部元素排队，可以理解成一个特殊的list
         - 死锁问题 案例09
         - 锁的等待时间
-        - semphore
+        - semaphore
             - 允许一个资源最多有几个线程使用 案例10
         - threading.Timer 案例11
         - 可重入锁
             - 一个锁，可以被一个线程多次申请
-            - 主要解决递归调用的时候，需要申请锁的情况 案例12    
+            - 主要解决递归调用的时候，需要申请锁的情况 案例12  
+            
+ # 线程代替方案
+ - subprocess
+    - 完全跳过线程，使用进程
+    - 是派生进程的主要代替方案
+    - Python2.4后引入
+ - multiprocesstiong
+    - 使用threading接口派生，使用子线程
+    - 允许为多核或者多cup派生进程，接口跟threading非常相似
+ - concurrent。futures
+    - 新的异步执行模块
+    - 任务级别的操作
+    - Python3.2后引入
+# 多进程
+- 进程之间通讯（interprocesscommunication，ipc）
+- 进程之间无任何共享转态
+- 进程的创建
+    - 案例13
+    - 派生子类 案例14
+- 在os 中查看pid，ppid以及他们的关系 案例15
