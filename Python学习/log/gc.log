@@ -6,5 +6,5 @@
 2019-04-14 15:02:20,723 *DEBUG *-> this is a logDEBUG
 2019-04-14 15:02:20,723 *INFO *-> this is a logINFO
 2019-04-14 15:02:20,723 *WARNING *-> this is a logWARNING
-2019-04-14 15:02:20,723 *ERROR *-> this is a logERROR
+2019-04-14 15:02:20,723 *ERR=-【】-OR *-> this is a logERROR
 2019-04-14 15:02:20,723 *CRITICAL *-> this is a logCRITICAL
